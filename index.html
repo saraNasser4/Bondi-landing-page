@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bondi</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css.map">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bondi.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="search px-3 ms-3 d-none d-lg-inline-block">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <button class="btn main-btn rounded-pill px-4 mx-3">Login</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="landing  d-flex justify-content-center align-items-center" id="home">
+            <div class="text-center">
+                <h1 class="fw-bold">Taste the Creativity</h1>
+                <p class="fw-light text-white-50 mb-4">We make awesome graphic and web design</p>
+                <button class="btn main-btn rounded-pill px-4 mx-3">Get Started</button>
+            </div>
+        </div>
+        
+        <div class="services" id="services">
+            <div class="container">
+                <div class="main-heading text-center position-relative">
+                    <i class="fa-solid fa-fingerprint fa-4x my-4"></i>
+                    <h2 class="fw-bold">We are Good at</h2>
+                    <p class="text-capitalize text-black-50 fs-5">some of these stuff under</p>
+                </div>
+                <div class="services-content my-5 text-center">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        <div class="col">
+                            <div class="feat">
+                                <div class="icon-holder position-relative">
+                                    <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+                                    <i class="fa-solid fa-pen-fancy position-absolute bottom-0 icon"></i>
+                                </div>
+                                <h3 class="my-3">Graphic Design</h3>
+                                <p class="text-black-50 lh-lg">Voluptatibus optio obcaecati magni iste, quas consectetur repudiandae ipsam expedita rem at in! Iste odit animi eos facere placeat, sunt necessitatibus aspernatur.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="feat">
+                                <div class="icon-holder position-relative">
+                                    <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+                                    <i class="fa-solid fa-code position-absolute bottom-0 icon"></i>
+                                </div>
+                                <h3 class="my-3">Web Development</h3>
+                                <p class="text-black-50 lh-lg">Voluptatibus optio obcaecati magni iste, quas consectetur repudiandae ipsam expedita rem at in! Iste odit animi eos facere placeat, sunt necessitatibus aspernatur.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="feat">
+                                <div class="icon-holder position-relative">
+                                    <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+                                    <i class="fa-solid fa-palette position-absolute bottom-0 icon"></i>
+                                </div>
+                                <h3 class="my-3">Graphic Design</h3>
+                                <p class="text-black-50 lh-lg">Voluptatibus optio obcaecati magni iste, quas consectetur repudiandae ipsam expedita rem at in! Iste odit animi eos facere placeat, sunt necessitatibus aspernatur.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio text-center" id="portfolio">
+            <div class="container">
+                <div class="main-heading text-center position-relative">
+                    <i class="fa-solid fa-fingerprint fa-4x my-4"></i>
+                    <h2 class="fw-bold">We Make This</h2>
+                    <p class="text-capitalize text-black-50 fs-5">prepare to be amazed</p>
+                </div>
+                <ul class="list-unstyled d-flex justify-content-center align-items-center my-5">
+                    <li class="btn rounded-4 active">All</li>
+                    <li>Design</li>
+                    <li>Code</li>
+                    <li>Photo</li>
+                    <li>App</li>
+                </ul>
+                <row class="row g-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid" src="img/portfolio-1.jpg" alt="Portfolio-1">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid"src="img/portfolio-2.jpg" alt="Portfolio-2">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid" src="img/portfolio-3.jpg" alt="Portfolio-3">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid" src="img/portfolio-4.jpg" alt="Portfolio-4">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid" src="img/portfolio-5.jpg" alt="Portfolio-5">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid" src="img/portfolio-6.jpg" alt="Portfolio-6">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid" src="img/portfolio-7.jpg" alt="Portfolio-7">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box" date-portfolio="Application">
+                            <img class="img-fluid" src="img/portfolio-8.jpg" alt="Portfolio-8">
+                        </div>
+                    </div>
+                </row>
+                <button class="btn main-btn rounded-pill px-4 m-5">I Want More</button>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="container">
+                <div class="main-heading text-center position-relative">
+                    <i class="fa-solid fa-fingerprint fa-4x my-4"></i>
+                    <h2 class="fw-bold">Some Stuff About Us</h2>
+                    <p class="text-capitalize text-black-50 fs-5">The Great Team</p>
+                </div>
+                <div class="about-content">
+                    <p class="text-black-50 text-center m-auto w-50 py-4 fw-semibold">
+                        Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+                    </p>
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-8 mb-3">
+                            <img class="img-fluid" src="img/about-img.png" alt="Laptop">
+                        </div>
+                        <div class="col-lg-4 mb-4 text-center text-md-start">
+                            <div class="col-text">
+                                <h4>Our Work</h4>
+                                <p class="text-black-50 fs-6">
+                                    Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                    Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada
+                                </p>
+                                <button class="btn main-btn rounded-pill px-4 m-4">Order Me Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="our-team ">
+            <div class="container py-5">
+                <div class="team-text text-center">
+                    <h2 class="fw-bold">Meet The Team</h2>
+                    <p class="text-black-50 pb-4">
+                        Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+                    </p>
+                </div>
+                <div class="team-img">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="img-fluid" src="img/team-1.png">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center fw-bold">Luck Skywalker</h4>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-black-50">"I don't understand how we got by those troops. I thought we were dead."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="img-fluid" src="img/team-2.png">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center fw-bold">Luck Skywalker</h4>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-black-50">"I don't understand how we got by those troops. I thought we were dead."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="img-fluid" src="img/team-3.png">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center fw-bold">Luck Skywalker</h4>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-black-50">"I don't understand how we got by those troops. I thought we were dead."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img class="img-fluid" src="img/team-4.png">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center fw-bold">Luck Skywalker</h4>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-black-50">"I don't understand how we got by those troops. I thought we were dead."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our-partners p-5 text-center">
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="img-fluid" src="img/partner-1.png">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="img-fluid" src="img/partner-2.png">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="img-fluid" src="img/partner-3.png">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="img-fluid" src="img/partner-4.png">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="img-fluid" src="img/partner-1.png">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="img-fluid" src="img/partner-2.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="start py-5 d-flex justify-content-center align-items-center" id="contact">
+            <div class="text-center py-5">
+                <h2 class="fw-bold">Start Your Project Now</h2>
+                <p class="text-white-50 fw-blod mb-4">Leave your description and we start the engine.Don't worry,you can cancel anytim</p>
+                <button class="btn main-btn rounded-pill px-4 mx-3">Start Project</button>
+            </div>
+        </div>
+
+        <div class="blog">
+            <div class="container text-center">
+                <div class="main-heading text-center position-relative">
+                    <i class="fa-solid fa-fingerprint fa-4x my-4"></i>
+                    <h2 class="fw-bold">Read Our Blog</h2>
+                    <p class="text-capitalize text-black-50 fs-5">New Stories</p>
+                </div>
+                <div class="row g-3 text-start">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img class="img-fluid" src="img/blog-1.jpg">
+                            </div>
+                            <div class="card-body">
+                                <span class="text-black-50 fw-bold">Jan 17, 2023</span>
+                                <h5>Some Awesome Blog Title Here</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img class="img-fluid" src="img/blog-2.jpg">
+                            </div>
+                            <div class="card-body">
+                                <span class="text-black-50 fw-bold">Jan 17, 2023</span>
+                                <h5>Some Awesome Blog Title Here</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img class="img-fluid" src="img/blog-3.jpg">
+                            </div>
+                            <div class="card-body">
+                                <span class="text-black-50 fw-bold">Jan 17, 2023</span>
+                                <h5>Some Awesome Blog Title Here</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn main-btn rounded-pill px-4 m-5">More Stories</button>
+            </div>
+        </div>
+
+        <div class="subscribe py-5 text-center text-lg-start d-flex align-items-center">
+            <div class="container">
+                <form class="row">
+                    <div class="col-lg-4">
+                        <p class="fw-bold fs-5 text-nowrap mb-3 mb-lg-0">Subscribe to our Newsletter:</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <input class="w-100 bg-transparent text-light p-2 mb-3 email gx-3" type="email" placeholder="Enter Email Address">
+                    </div>
+                    <div class="col-lg-2">
+                        <input type="submit" value="Subscribe" class="btn fw-bold rounded-pill mb-3 mb-lg-0">
+                    </div>
+                
+                </form>
+            </div>
+        </div>
+
+        <div class="footer py-5 text-md-start text-center">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <img src="img/logo.png">
+                        <p class="text-white-50 my-5">
+                            Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+                        </p>
+                        <p>Created By <span class="text-green">Graphberry</span><br> &copy; - 2023 <span class="text-yellow">Bondi Inc</span></p>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <h4>About Us</h4>
+                        <ul class="list-unstyled lh-lg">
+                            <li><a class="text-decoration-none" href="#">Sign In</a></li>
+                            <li><a  class="text-decoration-none" href="#">Register</a></li>
+                            <li><a  class="text-decoration-none"href="#">About US</a></li>
+                            <li><a  class="text-decoration-none" href="#">Blog</a></li>
+                            <li><a  class="text-decoration-none" href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled lh-lg">
+                            <li><a class="text-decoration-none" href="#home">Home</a></li>
+                            <li><a  class="text-decoration-none" href="#services">Our Services</a></li>
+                            <li><a  class="text-decoration-none"href="#portfolio">Portfolio</a></li>
+                            <li><a  class="text-decoration-none" href="#">Testimonials</a></li>
+                            <li><a  class="text-decoration-none" href="#">Support</a></li>
+                            <li><a  class="text-decoration-none" href="#">Terms and Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="col-text">
+                            <h4>Contact Us</h4>
+                            <p class="text-white-50 my-3">Get in touch with us via mail phone. We are waiting for your call or message</p>
+                        </div>
+                        <div class="col-links">
+                            <button class="btn main-btn rounded-pill mt-2 w-100">graphberry@gmail.com</button>
+                            <ul class="list-unstyled d-flex mt-5 gap-4 align-items-center">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook text-light fa-lg rounded-circle p-2 facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter text-light fa-lg rounded-circle p-2 twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-linkedin text-light fa-lg rounded-circle p-2 linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-youtube text-light fa-lg rounded-circle p-2 youtube"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js.map"></script>
+    </body>
+</html>

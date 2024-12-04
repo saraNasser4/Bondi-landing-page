@@ -1,0 +1,214 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color: #19283f;
+    --secondary-color: #33d1cc;
+    --btn-color: #ff3150;
+    --font-color: #ffc400;
+    --section-color: #eff7fa;
+}
+
+::selection {
+    color: var(--font-color);
+    background-color: var(--btn-color);
+
+}
+.main-btn {
+    background-color: var(--btn-color);
+    color: var(--font-color);
+
+}
+.main-btn:hover {
+    color: var(--btn-color);
+    border-color: var(--font-color);
+}
+
+
+
+.main-heading {
+    padding-top: 10vh;
+}
+.main-heading svg {
+    color: var(--font-color);
+}
+.main-heading::after {
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid var(--secondary-color);
+    width: 8rem;
+    translate: -50%;
+}
+
+
+
+
+
+nav,
+.landing,
+.start,
+.footer {
+    background-color: var(--main-color);
+    color: white;
+    
+}
+
+nav .navbar-toggler,
+nav .collapse .nav-link {
+    color: white;
+}
+
+nav .navbar-toggler:focus {
+    box-shadow: none;
+    border-color: var(--secondary-color);
+}
+
+nav .collapse .nav-link.active,
+nav .collapse .nav-link:hover,
+nav .collapse .nav-link:focus {
+    color: var(--secondary-color);
+}
+
+nav .collapse .search {
+    color: var(--secondary-color);
+    border-left: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+
+.landing {
+    min-height: calc(70vh - 70px);
+}
+
+
+
+.services .icon-holder {
+    height: 200px;
+}
+.services .icon-holder .number {
+    color: var(--section-color);
+    font-size: 12rem;
+    left: 50%;
+    translate: -50%;
+}
+.services .icon-holder .icon {
+    color: var(--secondary-color);
+    left: 50%;
+    translate: -50%;
+    font-size: 3.5rem;
+}
+.services .feat h3 {
+    color: var(--font-color)
+}
+
+
+.portfolio,
+.our-team {
+    background-color: var(--section-color);
+}
+
+.portfolio ul .active {
+    background-color: var(--btn-color);
+    color: var(--font-color);    
+}
+
+.portfolio ul li {
+    padding-left: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.portfolio ul li:not(.active):hover {
+    color: var(--btn-color);
+}
+
+.portfolio .row .box {
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio .row .box::before {
+    content: attr(date-portfolio);
+    position: absolute;
+    background-color: #33d1ccb3;
+    width: calc(100%);
+    height: calc(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    translate: -100%;
+}
+.portfolio .row .box:hover::before {
+    translate: 0;
+}
+
+
+.our-team .team-text h2 {
+    color: var(--font-color);
+}
+
+.our-team .team-img .card-body {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+
+.subscribe {
+    background-color: var(--font-color);
+}
+.subscribe p {
+    color: var(--main-color);
+}
+.subscribe .email {
+    border: none;
+    border-bottom: 2px solid white;
+}
+.subscribe .email:focus {
+    outline: none;
+}
+.subscribe ::placeholder {
+    color: white;
+}
+
+.subscribe .btn {
+    background-color: var(--main-color);
+    color: var(--font-color);
+
+}
+.subscribe .btn:hover {
+    color: var(--main-color);
+    background-color: var(--font-color);
+    border: 1px solid var(--main-color);
+}
+
+.footer .text-green {
+    color: var(--secondary-color);
+}
+.footer .text-yellow {
+    color: var(--font-color);
+}
+.footer ul li a {
+    color: rgba(255,255,255,.5);
+}
+
+.footer .col-links ul svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.footer .facebook {
+    background-color: #1877f2;
+}
+.footer .twitter {
+    background-color: #1da1f2;
+}
+.footer .linkedin {
+    background-color: #0077b5;
+}
+.footer .youtube {
+    background-color: #ff0000;
+}
+
